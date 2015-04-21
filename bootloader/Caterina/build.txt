@@ -1,0 +1,5 @@
+make clean
+make VID=0x7782 PID=0x7379 F_CPU=8000000
+mv Caterina.hex Caterina-cleduino-v1.hex
+make clean
+

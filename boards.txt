@@ -1,0 +1,23 @@
+##############################################################
+
+cleduino_v1.name=Cleduino v1
+cleduino_v1.upload.protocol=avr109
+cleduino_v1.upload.maximum_size=28672
+cleduino_v1.upload.speed=57600
+cleduino_v1.upload.disable_flushing=true
+cleduino_v1.bootloader.low_fuses=0xff
+cleduino_v1.bootloader.high_fuses=0xd8
+cleduino_v1.bootloader.extended_fuses=0xcb
+cleduino_v1.bootloader.path=Caterina
+cleduino_v1.bootloader.file=Caterina-cleduino-v1.hex
+cleduino_v1.bootloader.unlock_bits=0x3F
+cleduino_v1.bootloader.lock_bits=0x2F
+cleduino_v1.build.mcu=atmega32u4
+cleduino_v1.build.f_cpu=8000000L
+cleduino_v1.build.vid=0x7782
+cleduino_v1.build.pid=0x1010
+cleduino_v1.build.core=arduino:arduino
+cleduino_v1.build.variant=arduino:leonardo
+
+##############################################################
+
